@@ -5,7 +5,7 @@ import streamlit as st
 import google.generativeai as genai
 from PIL import Image
 
-genai.configure(api_key="AIzaSyAAOeNGT7TbhSlSeWVOAkz2GShKKc_IhG4")
+genai.configure(api_key="your-api-key")
 
 ## Function to load Google Gemini Pro Vision API And get response
 
